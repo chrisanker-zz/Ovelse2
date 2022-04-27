@@ -32,10 +32,26 @@ namespace Ovelse2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            lineBox4.Text = lineBox1.Text;
-            lineBox3.Text = lineBox4.Text;
-            lineBox2.Text = lineBox3.Text;
-            lineBox1.Text = lineBox2.Text;
+            string textBox1 = lineBox1.Text;
+            string textBox2 = lineBox2.Text;
+            string textBox3 = lineBox3.Text;
+            string textBox4 = lineBox4.Text;
+            lineBox4.Text = textBox1;
+            lineBox3.Text = textBox4;
+            lineBox2.Text = textBox3;
+            lineBox1.Text = textBox2;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string textBox1 = lineBox1.Text;
+            string textBox2 = lineBox2.Text;
+            string textBox3 = lineBox3.Text;
+            string textBox4 = lineBox4.Text;
+            lineBox4.Text = textBox3;
+            lineBox3.Text = textBox2;
+            lineBox2.Text = textBox1;
+            lineBox1.Text = textBox4;
         }
     }
 }
