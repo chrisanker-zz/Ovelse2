@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="300" Width="500">
     <Grid>
-        <Button Content="Scroll Up" HorizontalAlignment="Left" Margin="350,89,0,0" VerticalAlignment="Top"/>
+        <Button Content="Scroll Up" HorizontalAlignment="Left" Margin="350,89,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Button Content="Clear" HorizontalAlignment="Left" Margin="350,142,0,0" VerticalAlignment="Top"/>
         <Button Content="Scroll Down" HorizontalAlignment="Left" Margin="350,201,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.455,1.534"/>
         <Label Content="2" HorizontalAlignment="Left" Margin="49,99,0,0" VerticalAlignment="Top"/>
         <Label Content="3" HorizontalAlignment="Left" Margin="49,149,0,0" VerticalAlignment="Top"/>
         <Label Content="4" HorizontalAlignment="Left" Margin="49,199,0,0" VerticalAlignment="Top"/>
         <Label Content="1&#x9;" HorizontalAlignment="Left" Margin="49,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.485,-0.905"/>
-        <TextBox HorizontalAlignment="Left" Margin="130,203,0,0" TextWrapping="Wrap" Text="Line 4" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="130,153,0,0" TextWrapping="Wrap" Text="Line 3" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="130,103,0,0" TextWrapping="Wrap" Text="Line 2" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="130,59,0,0" TextWrapping="Wrap" Text="Line 1 0" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="lineBox4" HorizontalAlignment="Left" Margin="130,203,0,0" TextWrapping="Wrap" Text="Line 4" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="lineBox3" HorizontalAlignment="Left" Margin="130,153,0,0" TextWrapping="Wrap" Text="Line 3" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="lineBox2" HorizontalAlignment="Left" Margin="130,103,0,0" TextWrapping="Wrap" Text="Line 2" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="lineBox1" HorizontalAlignment="Left" Margin="130,59,0,0" TextWrapping="Wrap" Text="Line 1" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>
