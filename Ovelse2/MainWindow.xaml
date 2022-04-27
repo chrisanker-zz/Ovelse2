@@ -17,7 +17,7 @@
         <TextBox HorizontalAlignment="Left" Margin="130,203,0,0" TextWrapping="Wrap" Text="Line 4" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="130,153,0,0" TextWrapping="Wrap" Text="Line 3" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="130,103,0,0" TextWrapping="Wrap" Text="Line 2" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="130,59,0,0" TextWrapping="Wrap" Text="Line 1" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="130,59,0,0" TextWrapping="Wrap" Text="Line 1 0" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>
