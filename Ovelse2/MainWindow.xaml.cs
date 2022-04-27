@@ -20,6 +20,17 @@ namespace Ovelse2
     /// </summary>
     public partial class MainWindow : Window
     {
+        string textBox1;
+        string textBox2;
+        string textBox3;
+        string textBox4;
+        private void assignTextToVariables()
+        {
+            textBox1 = lineBox1.Text;
+            textBox2 = lineBox2.Text;
+            textBox3 = lineBox3.Text;
+            textBox4 = lineBox4.Text;
+        }
         public MainWindow()
         {
             InitializeComponent();
@@ -32,10 +43,7 @@ namespace Ovelse2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string textBox1 = lineBox1.Text;
-            string textBox2 = lineBox2.Text;
-            string textBox3 = lineBox3.Text;
-            string textBox4 = lineBox4.Text;
+            assignTextToVariables();
             lineBox4.Text = textBox1;
             lineBox3.Text = textBox4;
             lineBox2.Text = textBox3;
@@ -44,10 +52,7 @@ namespace Ovelse2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            string textBox1 = lineBox1.Text;
-            string textBox2 = lineBox2.Text;
-            string textBox3 = lineBox3.Text;
-            string textBox4 = lineBox4.Text;
+            assignTextToVariables();
             lineBox4.Text = textBox3;
             lineBox3.Text = textBox2;
             lineBox2.Text = textBox1;
